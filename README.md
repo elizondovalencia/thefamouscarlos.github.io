@@ -1,8 +1,8 @@
 ![](iMac.png)
 
-#A Concept Redesign for Brushfire
+# A Concept Redesign for Brushfire
 
-##By Carlos Martinez
+## By Carlos Martinez
 
 Hey! You already know me, but just a quick refresher: I'm a Senior Design Consultant and I work on making brands great.
 So, here I present my vision of a future Brushfire website.
@@ -36,21 +36,23 @@ All the icons are custom made in AI for the concept.
 
 ##Notes
 
-    - All the icons were made by hand in AI with material design as the focus
-    - The Dashboard images were from a previous project I made and is free for your use
-    - SMACSS is the design archetecture, but BEM would be the best alternative if this is taken into production
+    - All the icons were made by hand in AI with material design as the focus.
+    - The Dashboard images were from a previous project I made and is free for your use.
+    - SMACSS is the design archetecture, but BEM would be the best alternative if this is taken into production.
+    - The site is resposive, but the grid system doesn't achive full parity as margins on mobile aren't fully optimized.
     
 ## Closing thoughts
 I meant it when I said that this project is free for your corporate use, I hope you enjoy it, truly! While I'm sad that I won't be the man that you hire this round I do hope to work with you in the near future. If you want to extend this project into something official and want to have me work on it, please do let me know, I love working with great brands.
-In any case, Thankyou for the chance you gave me and I hope to hear from you soon!
+In any case, Thank you for the chance you gave me and I hope to hear from you soon!
 P.D Please let me know what your people think of the concept, be it postive or negative! I want o better my skills and that feedback would help!
 - Best,
 Carlos M.
 
 For:
-    - Stan Coker
+
+    - Stan Coker (Hello future boss!)
     - Jorin Slaybaugh (Special Thanks to you!)
     - Nic Rodriquez (Your input is highly requested)
-    - The Entire Brushfire team! (You all look incredible (especially you!))
+    - The Entire Brushfire team! (You all look incredible - especially you!)
     
 
