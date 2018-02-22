@@ -14,7 +14,7 @@ So, here I present my vision of a future Brushfire website.
     - Responsive Design
     - Genuine Reviews
     
-### No nos'
+### No No's
     - Unclear Above the Fold hero content, it's unclear at a glance what you do, you really have to look and read into the content
     - Fake parallax! (WHY! MY EYES! Use real parallax please!)
     - Boring copy. While clear, it's boring and feels to formal, this bores a younger audience 
