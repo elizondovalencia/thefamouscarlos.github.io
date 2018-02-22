@@ -1,5 +1,7 @@
 ![](iMac.png)
+
 #A Concept Redesign for Brushfire
+
 ##By Carlos Martinez
 
 Hey! You already know me, but just a quick refresher: I'm a Senior Design Consultant and I work on making brands great.
@@ -33,6 +35,7 @@ The design is clean, driven by geometry, mostly circular and waves. It also has 
 All the icons are custom made in AI for the concept.
 
 ##Notes
+
     - All the icons were made by hand in AI with material design as the focus
     - The Dashboard images were from a previous project I made and is free for your use
     - SMACSS is the design archetecture, but BEM would be the best alternative if this is taken into production
@@ -43,4 +46,11 @@ In any case, Thankyou for the chance you gave me and I hope to hear from you soo
 P.D Please let me know what your people think of the concept, be it postive or negative! I want o better my skills and that feedback would help!
 - Best,
 Carlos M.
+
+For:
+    - Stan Coker
+    - Jorin Slaybaugh (Special Thanks to you!)
+    - Nic Rodriquez (Your input is highly requested)
+    - The Entire Brushfire team! (You all look incredible (especially you!))
+    
 
