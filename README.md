@@ -40,6 +40,7 @@ The design is clean, driven by geometry, mostly circular and waves. It also has 
     - The Dashboard images were from a previous project I made and is free for your use.
     - SMACSS is the design architecture, but BEM would be the best alternative if this is taken into production.
     - The site is responsive, but the grid system doesn't achieve full parity as margins on mobile aren't fully optimized.
+    - This was a 36 hour project sprint (I hope that it doesn't show!).
     
 ## Closing thoughts
 I meant it when I said that this project is free for your corporate use, I hope you enjoy it, truly! While I'm sad that I won't be the man that you hire this round I do hope to work with you in the near future. If you want to extend this project into something official and want to have me work on it, please do let me know, I love working with great brands.
