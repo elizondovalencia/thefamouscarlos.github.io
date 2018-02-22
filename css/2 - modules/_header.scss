@@ -1,0 +1,193 @@
+header{
+    position: fixed;
+    margin-bottom: 50px;
+    padding: 0 50px;
+    width: 100%;
+    transition: ease-in-out;
+}
+
+.header {
+    padding: 25px 50px;
+    display: grid;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    img {
+        width: 180px;
+    }
+}
+
+.myNav.scrolled {
+    background-color: #494FAA!important;
+    transition: 200ms ease-in-out;
+    z-index: 999999;
+}
+$flex_nav_subNavWidth: 12.5em;
+$flex_nav_breakpoint: 48em;
+
+body {
+    -webkit-animation: bugfix infinite 1s; /* needed for checkbox hack */
+}
+@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} } /* needed for checkbox hack */
+
+#nav {
+    position:relative;
+    -ms-grid-column: 2;
+
+    ul {
+        display:none;
+        list-style:none;
+        margin: 0;
+        padding:0px;
+
+
+        li {
+
+            a {
+                font-family: 'Brushfire-Reg', sans-serif;
+                display:flex;
+                padding:1em;
+                color: #fff;
+                font-size: 18px;
+                text-decoration:none;
+
+            }
+            &:last-of-type {
+                a {
+
+                }
+            }
+            // 2nd level
+            ul {
+                li {
+                    a {
+                        padding-left:1.5em;
+                    }
+                    ul {
+                        li {
+                            a {
+                                padding-left:3.125em;
+                            }
+                        }
+                    }
+                }
+            }
+
+        } // li
+
+    } // ul
+
+    input.trigger {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        &:checked ~ ul,&:checked ~ ul li ul {
+            display:block !important;
+            @media (min-width:$flex_nav_breakpoint){
+                /* older flexbox */
+                display: -webkit-box;
+                display: -moz-box;
+                display: box;
+                -webkit-box-orient: horizontal;
+                -moz-box-orient: horizontal;
+                box-orient: horizontal;
+
+                /* newer flexbox */
+                display: flex;
+                flex-direction: row;
+            }
+        }
+    }
+    label {
+        position:relative;
+        display:block;
+        min-height:2em;
+        padding:.45em;
+        font-size:1.1em;
+        margin:0;
+        margin-top: -50px;
+        cursor:pointer;
+        line-height: 2em;
+        color:lighten(#61C0BD,80%);
+    }
+
+    label:after {
+        position: absolute;
+        right: -.2em;
+        top: .2em;
+        content:"\2261";
+        font-size: 48px;
+        font-weight: 700;
+        color:#fff;
+    }
+
+    @media(min-width:$flex_nav_breakpoint){
+        ul {
+            /* older flexbox */
+            //display:block;
+            display: -ms-flexbox;
+            flex-direction: -ms-row;
+            display: -webkit-box;
+            display: -moz-box;
+            display: box;
+
+            -webkit-box-orient: horizontal;
+            -moz-box-orient: horizontal;
+            box-orient: horizontal;
+
+            /* newer flexbox */
+            display: flex;
+            flex-direction: row;
+
+            li {
+                position:relative;
+                text-align: center;
+
+                /* older flexbox */
+                -ms-flex: 1;
+                -webkit-box-flex: 1;
+                -moz-box-flex: 1;
+                box-flex: 1;
+
+                /* newer flexbox */
+                flex: 1;
+
+                // 2nd level
+                ul {
+                    display:none !important;
+                    position:absolute;
+                    top:3.0625em;
+                    left:0;
+                    display:block;
+                    width:$flex_nav_subNavWidth;
+                    z-index:200;
+                    li {
+                        text-align:left;
+                        ul {
+                            z-index: 300;
+                            top:0px;
+                            left: ($flex_nav_subNavWidth - .1);
+                            li {
+                                a {
+                                    padding-left:30px !important;
+                                }
+                            }
+                        }
+                    }
+                } // ul 2nd level
+
+                &:hover > ul {
+                    display: block !important;
+                }
+
+            } // li
+        } // ul
+        label {
+            display:none;
+        }
+    } // breakpoint
+
+} // nav
+
+
+
