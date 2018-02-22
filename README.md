@@ -43,7 +43,7 @@ The design is clean, driven by geometry, mostly circular and waves. It also has 
     - This was a 36 hour project sprint (I hope that it doesn't show!).
     
 ## Closing thoughts
-I meant it when I said that this project is free for your corporate use, I hope you enjoy it, truly! While I'm sad that I won't be the man that you hire this round I do hope to work with you in the near future. If you want to extend this project into something official and want to have me work on it, please do let me know, I love working with great brands.
+I meant it when I said that this project is free for your corporate use, I hope you enjoy it (and use it!) truly! While I'm sad that I won't be the man that you hire this round I do hope to work with you in the near future. If you want to extend this project into something official and want to have me work on it, please do let me know, I love working with great brands like yours.
 In any case, Thank you for the chance you gave me and I hope to hear from you soon!
 P.D Please let me know what your people think of the concept, be it positive or negative! I want to better my skills and that feedback would help!
 - Best,
