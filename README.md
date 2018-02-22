@@ -1,3 +1,4 @@
+![](iMac.png)
 #A Concept Redesign for Brushfire
 ##By Carlos Martinez
 
@@ -12,7 +13,7 @@ So, here I present my vision of a future Brushfire website.
     - Genuien Reviews
     
 ### No nos'
-    - Fake paralax! (WHY!)
+    - Fake paralax! (WHY! Use real paralax please!)
     - Boring copy. While clear, its boring and feels to formal
     - Poor use of animations - poor animations in general
     - Out dated design. My first thought was - This is a Bootstrap site
