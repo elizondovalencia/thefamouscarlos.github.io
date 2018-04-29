@@ -1,6 +1,8 @@
-$(function () {
-    $(document).scroll(function () {
-        var $nav = $(".myNav");
-        $nav.toggleClass('scrolled', $(this).scrollTop() > 60);
-    });
-});
+function myFunction() {
+    const x = document.getElementById("myTopnav");
+    if (x.className === "hide-nav") {
+        x.className += "show-menu";
+    } else {
+        x.className = "hide-nav";
+    }
+}
